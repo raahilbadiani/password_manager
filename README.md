@@ -16,7 +16,7 @@
     - automtically pastes password in password input on webpages with some shortcut key combination
 
 # current status :
-    - 5 options available
+    5 options available in 2 versions(normal code, parser version (this behaves like terminal command. to get more info type python main.py --help))
     1. save a new entry with username,website,password
     2. save a new entry with username,website,auto generated strong password
     3. query to get all passwords by username
@@ -25,10 +25,10 @@
 
 
 # upcoming goals :
-    - encrypt the password before saving it in database and decrypt it with some master password
-    - do something to directly copy the queried password to clipboard (maybe use something like xclip or something else)
-    - convert the normal python code to make it a GUI application.
-    - create users (for online version) so multiple people can use this tool in same device and decide whether each user will have separate table in database or single table would be better
-    - try to improve auto password generation to make password more strong also try to run several attacks on password using rockyou.txt list of passwords to avoid commonly used passwords that maybe generated randomly
-    - make the interface better and more user friendly 
+    1. encrypt the password before saving it in database and decrypt it with some master password
+    2. do something to directly copy the queried password to clipboard (maybe use something like xclip or something else)
+    3. convert the normal python code to make it a GUI application.
+    4. create users (for online version) so multiple people can use this tool in same device and decide whether each user will have separate table in database or single table would be better
+    5. try to improve auto password generation to make password more strong also try to run several attacks on password using rockyou.txt list of passwords to avoid commonly used passwords that maybe generated randomly
+    6. make the interface better and more user friendly 
 
