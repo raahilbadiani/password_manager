@@ -45,7 +45,7 @@ def store_password(generate=1):
             if choice == 'Y' or choice == 'y' :
                 password_liked=True
     else :  # take pasword input from user
-        password = str(input("Password : "))        
+        password = str(input("Password : "))   
 
     # encrypt password
     # yet to be done
@@ -54,6 +54,8 @@ def store_password(generate=1):
     mycursor.execute("CREATE table if not exists pwdm(website varchar(50), username varchar(50),password varchar(200))")
     mycursor.execute("insert into pwdm (website,username,password) values(%s,%s,%s)", (website,username,password))
     db.commit()
+
+    print("Saved this entry successfully! ")
 
 
 # search by username    
